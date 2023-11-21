@@ -37,11 +37,13 @@ let pets = 2;
 console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 2;
+console.log(friendsPets);
 // 10 - Add two pets to your `pets` variable
 pets += 2;
 console.log(pets);
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 4
+console.log(allowedPets)
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
@@ -76,7 +78,7 @@ console.log(diceRoll);
 let petStatus
 
 if (pets < allowedPets) {
-  petStatus = 'I can have more pets!';
+  petStatus = 'I can have more pets';
 } else if (pets === allowedPets) {
   petStatus = 'I have enough pets';
 } else if (pets > allowedPets) {
