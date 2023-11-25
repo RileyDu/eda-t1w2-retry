@@ -97,7 +97,7 @@ let mostPets;
 
 if (pets > friendsPets) {
   mostPets = pets;
-} else if (pets = friendsPets) {
+} else if (pets === friendsPets) {
   mostPets = pets;
 } else {
   mostPets = friendsPets;
